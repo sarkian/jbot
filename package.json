@@ -1,0 +1,30 @@
+{
+    "name": "jbot",
+    "version": "0.0.1",
+    "description": "No description yet",
+    "main": "lib/JBot.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/sarkian/jbot.git"
+    },
+    "author": {
+        "name": "Sarkian",
+        "email": "root@dustus.org",
+        "url": "http://github.com/sarkian/"
+    },
+    "license": "WTFPL",
+    "bugs": {
+        "url": "https://github.com/sarkian/jbot/issues"
+    },
+    "homepage": "https://github.com/sarkian/jbot",
+    "dependencies": {
+        "bluebird": "^2.9.24",
+        "jquery": "^2.1.3",
+        "jsdom": "^4.4.0",
+        "request": "^2.55.0",
+        "tough-cookie-filestore": "0.0.1"
+    }
+}
