@@ -54,7 +54,7 @@ class JBot {
     
     
     get(url, options) {
-        return this._req.getAsync(url, collectOptions({
+        return this._req.getAsync(url, JBot.collectOptions({
             followAllRedirects: true,
             headers: this._headers,
             encoding: null
@@ -63,7 +63,7 @@ class JBot {
     
     
     post(url, data, options) {
-        return this._req.postAsync(collectOptions({
+        return this._req.postAsync(JBot.collectOptions({
             url: url,
             formData: data,
             followAllRedirects: true,
