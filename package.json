@@ -1,6 +1,6 @@
 {
     "name": "jbot",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "No description yet",
     "main": "lib/JBot.js",
     "scripts": {
